@@ -16,7 +16,7 @@ const Home: NextPage = () => {
         <meta property="og:title" content="harutaka portfolio" />
         <meta property="og:url" content="https://harutaka-portfolio.vercel.app" />
         <meta property="og:description" content="はるたかのポートフォリオサイトです。" />
-        <meta property="og:image" content="https://harutaka-portfolio.vercel.app/works/portfolio_overview.jpg" />
+        <meta property="og:image" content="https://harutaka-portfolio.vercel.app/img/works/portfolio_overview.jpg" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="description" content="はるたかのポートフォリオサイトです" />
         <title>harutaka portfolio</title>
