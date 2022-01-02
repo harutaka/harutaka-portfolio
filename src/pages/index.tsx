@@ -14,17 +14,25 @@ const Home: NextPage = () => {
       <Head>
         <meta property="og:type" content="website" />
         <meta property="og:title" content="harutaka portfolio" />
-        {/* <meta property="og:url" content="URL" /> */}
+        <meta property="og:url" content="https://harutaka-portfolio.vercel.app" />
         <meta property="og:description" content="はるたかのポートフォリオサイトです。" />
-        {/* <meta property="og:image" content="img/ogp.png" /> */}
+        <meta property="og:image" content="https://harutaka-portfolio.vercel.app/works/portfolio_overview.jpg" />
+        <meta name="twitter:card" content="summary_large_image" />
         <meta name="description" content="はるたかのポートフォリオサイトです" />
         <title>harutaka portfolio</title>
         <link rel="shortcut icon" href="/favicon.ico" />
+        <link rel="canonical" href="https://harutaka-portfolio.vercel.app" />
       </Head>
 
       {/* 最上部バナー */}
       <div id="banner" className="relative w-full h-[200px] md:h-[480px]">
-        <Image src="/img/portfolio_cover.jpg" alt="harutaka portfolio" objectFit="cover" layout="fill" priority={true} />
+        <Image
+          src="/img/portfolio_cover.jpg"
+          alt="harutaka portfolio"
+          objectFit="cover"
+          layout="fill"
+          priority={true}
+        />
       </div>
 
       {/* ヘッダー */}
