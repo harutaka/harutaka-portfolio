@@ -3,6 +3,8 @@ import Head from "next/head"
 import Image from "next/image"
 import Link from "next/link"
 import Header from "@/components/Header"
+import Profile from "@/components/Profile"
+import Skill from "@/components/Skill"
 
 const Home: NextPage = () => {
   return (
@@ -25,6 +27,10 @@ const Home: NextPage = () => {
 
       {/* ヘッダー */}
       <Header />
+      <main className="px-4 mx-auto max-w-7xl md:px-10">
+        <Profile />
+        <Skill />
+      </main>
       <div className="p-12">aaa</div>
       <div className="h-[1000px] bg-blue-300"></div>
     </>

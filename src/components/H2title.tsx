@@ -1,7 +1,4 @@
-import Link from "next/link"
-import { ReactNode } from "react"
-
-const iconClass = "mr-1 w-5 h-5 md:w-6 md:h-6"
+const iconClass = "mr-2 w-12 h-12"
 const PeapleIcon = () => {
   return (
     <svg xmlns="http://www.w3.org/2000/svg" className={iconClass} viewBox="0 0 20 20" fill="currentColor">
@@ -44,46 +41,26 @@ const MailIcon = () => {
   )
 }
 
-type LiItemProps = {
-  href: string
+const iconComponents = {
+  peaple: PeapleIcon,
+  pc: PcIcon,
+  global: GlobalIcon,
+  mail: MailIcon,
+}
+
+type H2TitleProps = {
   title: string
-  children?: ReactNode
+  iconType: "peaple" | "pc" | "global" | "mail"
 }
 
-const LiItem = ({ href, title, children }: LiItemProps) => {
+const H2Title = ({ title, iconType }: H2TitleProps) => {
+  const IconComponent = iconComponents[iconType]
   return (
-    <li className="mx-2 text-sm font-bold text-gray-800 md:mx-5 md:text-lg">
-      <Link href={href}>
-        <a className="flex items-center">
-          {children}
-          {title}
-        </a>
-      </Link>
-    </li>
+    <h2 className="flex justify-center items-center mb-12 text-5xl font-bold tracking-wider text-indigo-600">
+      <IconComponent />
+      {title}
+    </h2>
   )
 }
 
-const Header = () => {
-  return (
-    <nav className="sticky top-0 z-20 w-full bg-gray-100">
-      <div className="py-4 px-10">
-        <ul className="flex justify-center">
-          <LiItem title="Profile" href="#profile">
-            <PeapleIcon />
-          </LiItem>
-          <LiItem title="Skill" href="#skill">
-            <PcIcon />
-          </LiItem>
-          <LiItem title="Works" href="#works">
-            <GlobalIcon />
-          </LiItem>
-          <LiItem title="Contact" href="#contact">
-            <MailIcon />
-          </LiItem>
-        </ul>
-      </div>
-    </nav>
-  )
-}
-
-export default Header
+export default H2Title
