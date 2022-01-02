@@ -65,19 +65,19 @@ const LiItem = ({ href, title, children }: LiItemProps) => {
 
 const Header = () => {
   return (
-    <nav className="sticky top-0 z-20 w-full bg-gray-100">
+    <nav id="header" className="sticky top-0 z-20 w-full bg-gray-100">
       <div className="py-4 px-10">
         <ul className="flex justify-center">
-          <LiItem title="Profile" href="#profile">
+          <LiItem title="Profile" href="/#profile">
             <PeapleIcon />
           </LiItem>
-          <LiItem title="Skill" href="#skill">
+          <LiItem title="Skill" href="/#skill">
             <PcIcon />
           </LiItem>
-          <LiItem title="Works" href="#works">
+          <LiItem title="Works" href="/#works">
             <GlobalIcon />
           </LiItem>
-          <LiItem title="Contact" href="#contact">
+          <LiItem title="Contact" href="/#contact">
             <MailIcon />
           </LiItem>
         </ul>

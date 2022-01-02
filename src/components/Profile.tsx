@@ -8,7 +8,7 @@ const Profile = () => {
       <H2Title title="Profile" iconType="peaple" />
       <div className="flex-wrap md:flex">
         <p className="mx-auto w-32 text-center md:mr-8 md:w-1/5">
-          <Image src="/img/harutaka_icon_360.png" alt="" width={160} height={160} />
+          <Image src="/img/harutaka_icon_360.png" alt="profile" width={160} height={160} />
         </p>
         <div className="flex-1">
           <div className="mb-4 text-2xl font-bold text-center md:text-left">はるたか</div>

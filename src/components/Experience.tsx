@@ -27,7 +27,7 @@ const ExperienceItem = ({ year, title, children }: ExperienceItemProps) => {
 
 const Experience = () => {
   return (
-    <div className="container flex flex-wrap py-12 mx-auto">
+    <div className="container flex flex-wrap pt-12 mx-auto">
       <ExperienceItem year={2009} title="研究開発">
         開発中の商品のシミュレーションと実証実験を行いました。担当部分のモジュールはC#で、シミュレーションはVBAで作りました。
       </ExperienceItem>

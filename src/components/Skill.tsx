@@ -117,7 +117,7 @@ const SkillItem = ({ title, year, rate }: SkillItemProps) => {
 
 const Skill = () => {
   return (
-    <section id="skill" className="my-8 mx-auto md:my-20">
+    <section id="skill" className="my-8 mx-auto md:my-24">
       <H2Title title="Skill" iconType="pc" />
 
       <div className="grid-cols-2 gap-8 md:grid">
