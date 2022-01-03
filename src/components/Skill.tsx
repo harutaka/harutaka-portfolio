@@ -121,7 +121,7 @@ const Skill = () => {
       <H2Title title="Skill" iconType="pc" />
 
       <div className="grid-cols-2 gap-8 md:grid">
-        <SkillBoard title="Frontend" iconType="pencil" description="最近はNext.jsでWebアプリを作成しています。">
+        <SkillBoard title="Frontend" iconType="pencil" description="Node.js系のWebアプリ制作が得意分野です。">
           <SkillItem title="HTML/CSS" year="5年以上" rate={5} />
           <SkillItem title="JavaScript" year="5年以上" rate={5} />
           <SkillItem title="Tailwind CSS" year="1年" rate={3} />
@@ -129,7 +129,7 @@ const Skill = () => {
           <SkillItem title="Next.js" year="2年" rate={3} />
         </SkillBoard>
 
-        <SkillBoard title="Backend" iconType="server" description="ExpressでAPIサーバーを作ることが多いです。">
+        <SkillBoard title="Backend" iconType="server" description="本業ではExpressでのAPIサーバー制作実績が多いです。">
           <SkillItem title="Node.js" year="5年以上" rate={5} />
           <SkillItem title="Express.js" year="5年以上" rate={5} />
           <SkillItem title="Python" year="2年" rate={3} />
@@ -137,7 +137,7 @@ const Skill = () => {
           <SkillItem title="Redis" year="2年" rate={1} />
         </SkillBoard>
 
-        <SkillBoard title="DevOps" iconType="setting" description="各サービスはDockerで運用しています。">
+        <SkillBoard title="DevOps" iconType="setting" description="直近では各サービスをDockerで運用しています。">
           <SkillItem title="Docker" year="3年" rate={4} />
           <SkillItem title="Jenkins" year="5年以上" rate={4} />
           <SkillItem title="Linux" year="5年以上" rate={4} />

@@ -15,10 +15,16 @@ const Home: NextPage = () => {
         <meta property="og:type" content="website" />
         <meta property="og:title" content="harutaka portfolio" />
         <meta property="og:url" content="https://harutaka-portfolio.vercel.app" />
-        <meta property="og:description" content="はるたかのポートフォリオサイトです。" />
+        <meta
+          property="og:description"
+          content="はるたかのポートフォリオサイトです。Node.js系のWebアプリ制作はお任せください。"
+        />
         <meta property="og:image" content="https://harutaka-portfolio.vercel.app/img/works/portfolio_overview.jpg" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="description" content="はるたかのポートフォリオサイトです" />
+        <meta
+          name="description"
+          content="はるたかのポートフォリオサイトです。Node.js系のWebアプリ制作はお任せください。"
+        />
         <title>harutaka portfolio</title>
         <link rel="shortcut icon" href="/favicon.ico" />
         <link rel="canonical" href="https://harutaka-portfolio.vercel.app" />
