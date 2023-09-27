@@ -23,7 +23,7 @@ const LiItem = ({ href, title, children }: LiItemProps) => {
 
 const Header = () => {
   return (
-    <nav id="header" className="sticky top-0 z-20 w-full">
+    <nav id="header" className="sticky top-0 z-20 w-full bg-base-100">
       <div className="py-4 px-10">
         <ul className="flex justify-center">
           <LiItem title="Profile" href="/#profile">
