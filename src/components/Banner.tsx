@@ -1,15 +1,15 @@
 import React from 'react'
 import Image from 'next/image'
+import portfolioCover from "@/../public/img/portfolio_cover.jpg"
 
 const Banner = () => {
   return (
-    <div id="banner" className="relative w-full h-[200px] md:h-[480px]">
+    <div id="banner" className="relative">
       <Image
-        src="/img/portfolio_cover.jpg"
+        src={portfolioCover}
         alt="harutaka portfolio"
-        objectFit="cover"
-        layout="fill"
-        priority={true}
+        priority
+        className='object-cover w-full h-[200px] md:h-[300px]'
       />
   </div>
   )

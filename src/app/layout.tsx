@@ -1,5 +1,12 @@
 import "./globals.css"
 import type { Metadata } from "next"
+import { Montserrat } from "next/font/google"
+
+const montSerrat = Montserrat({
+  weight: ["400", "700"],
+  subsets: ["latin"],
+  display: "swap"
+})
 
 export const metadata: Metadata = {
   title: "harutaka portfolio",
@@ -20,7 +27,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="ja">
+    <html lang="ja" data-theme="light" className={montSerrat.className}>
       <body>{children}</body>
     </html>
   )
