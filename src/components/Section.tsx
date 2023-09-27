@@ -12,12 +12,13 @@ type SectionProps = {
   id: "profile" | "skill" | "works" | "contact"
   title: string
   children: ReactNode
+  className?: string | undefined
 }
-const Section = ({ id, title, children }: SectionProps) => {
+const Section = ({ id, title, children, className }: SectionProps) => {
   const IconComponent = iconComponents[id]
   return (
-    <section id={id} className="py-8 md:py-20 mx-auto">
-      <h2 className="flex justify-center items-center mb-12 text-5xl font-bold tracking-wider text-primary">
+    <section id={id} className={`py-16 md:py-20 mx-auto ${className}`}>
+      <h2 className="flex justify-center items-center mb-8 md:mb-12 text-2xl md:text-5xl font-bold tracking-wider text-primary">
         <IconComponent className="mr-2 w-12 h-12" />
         {title}
       </h2>

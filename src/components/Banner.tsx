@@ -9,7 +9,7 @@ const Banner = () => {
         src={portfolioCover}
         alt="harutaka portfolio"
         priority
-        className='object-cover w-full h-[200px] md:h-[300px]'
+        className='object-cover w-full h-[120px] md:h-[300px]'
       />
   </div>
   )

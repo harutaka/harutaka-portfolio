@@ -1,24 +1,22 @@
 import { ReactNode } from "react"
 type ExperienceItemProps = {
-  year: number,
-  title: string,
+  year: number
+  title: string
   children: ReactNode
 }
 const ExperienceItem = ({ year, title, children }: ExperienceItemProps) => {
   return (
     <div className="flex relative pt-10 pb-8 mx-auto sm:items-center md:w-full">
       <div className="flex absolute inset-0 justify-center items-center w-12 h-full">
-        <div className="w-1 h-full bg-gray-200 pointer-events-none"></div>
+        <div className="w-1 h-full bg-base-200 pointer-events-none"></div>
       </div>
-      <div className="inline-flex relative z-10 shrink-0 justify-center items-center mt-10 w-12 h-12 text-sm font-medium text-white bg-indigo-500 rounded-full sm:mt-0">
+      <div className="inline-flex relative z-10 shrink-0 justify-center items-center mt-10 w-12 h-12 text-sm font-medium text-primary-content bg-primary rounded-full sm:mt-0">
         {`${year}`}
       </div>
       <div className="flex flex-col grow items-start pl-6 sm:flex-row sm:items-center md:pl-8">
         <div className="grow mt-6 sm:pl-6 sm:mt-0">
-          <h2 className="mb-1 text-xl font-bold text-gray-900">{title}</h2>
-          <p className="leading-relaxed">
-            {children}
-          </p>
+          <h2 className="mb-1 text-xl font-bold text-base-content">{title}</h2>
+          <p className="leading-relaxed">{children}</p>
         </div>
       </div>
     </div>
