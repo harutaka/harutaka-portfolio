@@ -8,7 +8,7 @@ const ExperienceItem = ({ year, title, children }: ExperienceItemProps) => {
   return (
     <div className="flex relative pt-10 pb-8 mx-auto sm:items-center md:w-full">
       <div className="flex absolute inset-0 justify-center items-center w-12 h-full">
-        <div className="w-1 h-full bg-base-200 pointer-events-none"></div>
+        <div className="w-1 h-full bg-base-300 pointer-events-none"></div>
       </div>
       <div className="inline-flex relative z-10 shrink-0 justify-center items-center mt-10 w-12 h-12 text-sm font-medium text-primary-content bg-primary rounded-full sm:mt-0">
         {`${year}`}
