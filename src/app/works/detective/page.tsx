@@ -1,19 +1,21 @@
 import type { NextPage } from "next"
+import Link from "next/link"
 import Image from "next/image"
 import H3Works from "@/components/works/H3Works"
 import LayoutWorks from "@/components/works/LayoutWorks"
 import PWorks from "@/components/works/PWorks"
+import detectiveImg from "@/../public/img/works/detective_overview.jpg"
 
 const Detective: NextPage = () => {
   return (
     <LayoutWorks title="探偵事務所のデモサイト制作">
-      <div className="pb-4 text-center">
-        <Image src="/img/works/detective_overview.jpg" alt="" width={800} height={400} />
-      </div>
+      <Image src={detectiveImg} alt="" className="w-full" />
 
       <H3Works>URL</H3Works>
       <PWorks>
-        <a href="https://fumiduki-detective.vercel.app/" className="underline">https://fumiduki-detective.vercel.app/</a>
+        <Link href="https://fumiduki-detective.vercel.app/" className="underline">
+          https://fumiduki-detective.vercel.app/
+        </Link>
       </PWorks>
 
       <H3Works>説明</H3Works>
