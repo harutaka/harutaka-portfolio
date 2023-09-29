@@ -1,5 +1,5 @@
-import React from 'react'
-import Image from 'next/image'
+import React from "react"
+import Image from "next/image"
 import portfolioCover from "@/../public/img/portfolio_cover.jpg"
 
 const Banner = () => {
@@ -9,9 +9,9 @@ const Banner = () => {
         src={portfolioCover}
         alt="harutaka portfolio"
         priority
-        className='object-cover w-full h-[120px] md:h-[300px]'
+        className="object-cover w-full h-[120px] md:h-[300px]"
       />
-  </div>
+    </div>
   )
 }
 

@@ -24,7 +24,7 @@ type SkillBoardProps = {
 const SkillBoard = ({ title, description, iconType, children }: SkillBoardProps) => {
   const IconComponent = iconComponents[iconType]
   return (
-    <div className="py-8 mb-8 bg-white shadow-md md:mb-0">
+    <div className="py-8 mb-8 bg-base-100 shadow-md md:mb-0">
       <div className="flex justify-center items-center text-3xl font-bold">
         <IconComponent className="mr-2 w-7 h-7" />
         <p>{title}</p>

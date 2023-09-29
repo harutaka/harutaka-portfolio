@@ -5,7 +5,7 @@ import { Montserrat } from "next/font/google"
 const montSerrat = Montserrat({
   weight: ["400", "700"],
   subsets: ["latin"],
-  display: "swap"
+  display: "swap",
 })
 
 export const metadata: Metadata = {
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="ja" data-theme="light" className={`${montSerrat.className} scroll-smooth`}>
-      <body>{children}</body>
+      <body id="top">{children}</body>
     </html>
   )
 }

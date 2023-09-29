@@ -3,16 +3,17 @@ import Image from "next/image"
 import H3Works from "@/components/works/H3Works"
 import LayoutWorks from "@/components/works/LayoutWorks"
 import PWorks from "@/components/works/PWorks"
+import overviewImg from "@/../public/img/works/refrigerator_overview.jpg"
+import arch01Img from "@/../public/img/works/refrigerator_arch01.jpg"
+import arch02Img from "@/../public/img/works/refrigerator_arch02.jpg"
 
 const Detective: NextPage = () => {
   return (
     <LayoutWorks title="IoT冷蔵庫のユーザーサービスサイト">
       <div className="pb-4 text-center">
-        <Image src="/img/works/refrigerator_overview.jpg" alt="" width={800} height={400} />
-        <div className="mb-4"></div>
-        <Image src="/img/works/refrigerator_arch01.jpg" alt="" width={1250} height={547} />
-        <div className="mb-4"></div>
-        <Image src="/img/works/refrigerator_arch02.jpg" alt="" width={1250} height={395} />
+        <Image src={overviewImg} alt="" className="w-full mb-4" />
+        <Image src={arch01Img} alt="" className="w-full mb-4" />
+        <Image src={arch02Img} alt="" className="w-full" />
       </div>
 
       <H3Works>URL</H3Works>

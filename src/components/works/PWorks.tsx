@@ -5,11 +5,7 @@ type PWorksProps = {
 }
 
 const PWorks = ({ children }: PWorksProps) => {
-  return (
-    <p className="mb-8">
-      {children}
-    </p>
-  )
+  return <p className="mb-8">{children}</p>
 }
 
 export default PWorks

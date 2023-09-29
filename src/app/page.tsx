@@ -12,13 +12,13 @@ const Home = () => {
     <>
       <Banner />
       <main className="container mx-auto max-w-7xl md:px-10 px-4">
-        <Header />
+        <Header className="sticky" />
         <Profile />
         <Skill />
         <Works />
         <Contact />
       </main>
-        <Footer />
+      <Footer />
     </>
   )
 }

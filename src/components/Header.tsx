@@ -21,9 +21,12 @@ const LiItem = ({ href, title, children }: LiItemProps) => {
   )
 }
 
-const Header = () => {
+type HeaderProps = {
+  className?: string | undefined
+}
+const Header = ({ className }: HeaderProps) => {
   return (
-    <nav id="header" className="sticky top-0 z-20 w-full bg-base-200">
+    <nav id="header" className={`top-0 z-20 w-full bg-base-200 ${className}`}>
       <div className="py-4 px-10">
         <ul className="flex justify-center">
           <LiItem title="Profile" href="/#profile">

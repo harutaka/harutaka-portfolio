@@ -3,12 +3,13 @@ import Image from "next/image"
 import H3Works from "@/components/works/H3Works"
 import LayoutWorks from "@/components/works/LayoutWorks"
 import PWorks from "@/components/works/PWorks"
+import overviewImg from "@/../public/img/works/lpcollection_overview.jpg"
 
 const Lpcollection: NextPage = () => {
   return (
     <LayoutWorks title="模写コーディング一覧">
       <div className="pb-4 text-center">
-        <Image src="/img/works/lpcollection_overview.jpg" alt="" width={800} height={400} />
+        <Image src={overviewImg} alt="" className="w-full" />
       </div>
 
       <H3Works>URL</H3Works>

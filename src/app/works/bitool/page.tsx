@@ -3,16 +3,17 @@ import Image from "next/image"
 import H3Works from "@/components/works/H3Works"
 import LayoutWorks from "@/components/works/LayoutWorks"
 import PWorks from "@/components/works/PWorks"
+import overviewImg from "@/../public/img/works/bitool_overview.jpg"
+import geoImg from "@/../public/img/works/bitool_quicksight_geoimage.png"
+import archImg from "@/../public/img/works/bitool_architecture.jpg"
 
 const Bitool: NextPage = () => {
   return (
     <LayoutWorks title="データ分析サイト構築">
       <div className="pb-4 text-center">
-        <Image src="/img/works/bitool_overview.jpg" alt="" width={800} height={400} />
-        <div className="mb-4"></div>
-        <Image src="/img/works/bitool_quicksight_geoimage.png" alt="" width={1735} height={1033} />
-        <div className="mb-4"></div>
-        <Image src="/img/works/bitool_architecture.jpg" alt="" width={957} height={591} />
+        <Image src={overviewImg} alt="" className="w-full mb-4" />
+        <Image src={geoImg} alt="" className="w-full mb-4" />
+        <Image src={archImg} alt="" className="w-full mb-4" />
       </div>
 
       <H3Works>URL</H3Works>
@@ -30,8 +31,10 @@ const Bitool: NextPage = () => {
       </PWorks>
 
       <H3Works>使用した技術</H3Works>
-      <PWorks>Python | Jenkins | SQLite | Metabase <br />
-        AWS (S3/Athena/QuickSight)</PWorks>
+      <PWorks>
+        Python | Jenkins | SQLite | Metabase <br />
+        AWS (S3/Athena/QuickSight)
+      </PWorks>
     </LayoutWorks>
   )
 }
