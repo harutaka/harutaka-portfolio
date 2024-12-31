@@ -27,7 +27,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="ja" data-theme="light" className={`${montSerrat.className} scroll-smooth`}>
+    <html lang="ja" data-theme="light" className={`${montSerrat.className}`}>
       <body id="top">{children}</body>
     </html>
   )

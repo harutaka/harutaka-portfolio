@@ -20,14 +20,14 @@ const Portfolio: NextPage = () => {
       </PWorks>
 
       <H3Works>説明</H3Works>
-      <PWorks>このサイトです。Next.js+Tailwind CSSで制作しています。</PWorks>
+      <PWorks>このサイトです。Next.jsで制作しています。</PWorks>
       <PWorks>
-        デザインはTailBlocksを参考に、アレンジしています。アイコンはheroiconsのSVGアイコンを使用しています。Tailwind
-        CSSの作者が作成したアイコンなので、非常に作りやすかったです。画像はフリー素材と、Canva/GIMPで自作した画像、パワーポイントで作成した構成図を使用しました。
+        デザインはTailBlocksを参考に、アレンジしています。アイコンはheroiconsのSVGアイコンを使用しています。
+        画像はフリー素材と、パワーポイントで作成した構成図を使用しました。
       </PWorks>
 
       <H3Works>使用した技術</H3Works>
-      <PWorks>Next.js | Tailwind CSS | GIMP | Canva | TypeScript | eslint | prettier</PWorks>
+      <PWorks>Next.js | Tailwind CSS | daisyUI | TypeScript | eslint | prettier</PWorks>
     </LayoutWorks>
   )
 }

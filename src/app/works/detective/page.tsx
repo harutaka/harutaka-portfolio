@@ -21,11 +21,12 @@ const Detective: NextPage = () => {
       <H3Works>説明</H3Works>
       <PWorks>探偵事務所から、コーポレートサイトの制作依頼を受けた想定で、架空のサイトを作成しました。</PWorks>
       <PWorks>
-        このサイトはNext.jsで作成しています。デザインはWordPressテーマの「Lightning」を元にアレンジしています。素材はフリー素材を元に、CanvaとGIMPで加工して制作しました。カルーセル部分はnpmモジュールのswiperを使用しています。
+        このサイトはNext.jsで作成しています。ロゴは自作し、他の素材はフリー素材を使用しました。
+        文章の作成には、生成AIを活用しています。デプロイ先はVercelにしました。
       </PWorks>
 
       <H3Works>使用した技術</H3Works>
-      <PWorks>Next.js | Tailwind CSS | GIMP | Canva | TypeScript | eslint | prettier </PWorks>
+      <PWorks>Next.js | Tailwind CSS | TypeScript | eslint | prettier </PWorks>
     </LayoutWorks>
   )
 }

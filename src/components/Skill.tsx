@@ -71,33 +71,34 @@ const Skill = () => {
         <SkillBoard title="Frontend" iconType="pencil" description="Node.js系のWebアプリ制作が得意分野です。">
           <SkillItem title="HTML/CSS" year="5年以上" rate={5} />
           <SkillItem title="JavaScript" year="5年以上" rate={5} />
-          <SkillItem title="Tailwind CSS" year="1年" rate={3} />
+          <SkillItem title="TypeScript" year="3年" rate={3} />
           <SkillItem title="React" year="2年" rate={3} />
           <SkillItem title="Next.js" year="2年" rate={3} />
         </SkillBoard>
 
-        <SkillBoard title="Backend" iconType="server" description="本業ではExpressでのAPIサーバー制作実績が多いです。">
+        <SkillBoard title="Backend" iconType="server" description="Expressでの実績が多いですが、直近ではMicronautを使っています。">
           <SkillItem title="Node.js" year="5年以上" rate={5} />
           <SkillItem title="Express.js" year="5年以上" rate={5} />
           <SkillItem title="Python" year="2年" rate={3} />
-          <SkillItem title="SQLite" year="2年" rate={3} />
-          <SkillItem title="Redis" year="2年" rate={1} />
+          <SkillItem title="GRPC" year="2年" rate={3} />
+          <SkillItem title="Micronaut(kotlin)" year="2年" rate={3} />
         </SkillBoard>
 
-        <SkillBoard title="DevOps" iconType="tooth" description="直近では各サービスをDockerで運用しています。">
-          <SkillItem title="Docker" year="3年" rate={4} />
+        <SkillBoard title="DevOps" iconType="tooth" description="直近では各サービスをKubernetesで運用しています。">
+          <SkillItem title="AWS" year="3年" rate={5} />
+          <SkillItem title="Kubernetes" year="3年" rate={4} />
+          <SkillItem title="GitHub Actions" year="3年" rate={4} />
           <SkillItem title="Jenkins" year="5年以上" rate={4} />
-          <SkillItem title="Linux" year="5年以上" rate={4} />
-          <SkillItem title="bash" year="3年" rate={3} />
-          <SkillItem title="AWS" year="3年" rate={3} />
+          <SkillItem title="Argo CD" year="3年" rate={4} />
+          <SkillItem title="terraform" year="2年" rate={3} />
         </SkillBoard>
 
-        <SkillBoard title="etc" iconType="chart" description="開発・管理・進行で使用します">
+        <SkillBoard title="etc" iconType="chart" description="環境構築・開発管理・進行で使用します">
           <SkillItem title="Redmine" year="5年以上" rate={5} />
-          <SkillItem title="要件定義" year="5年以上" rate={4} />
-          <SkillItem title="VS Code" year="3年" rate={4} />
-          <SkillItem title="GIMP" year="2年" rate={3} />
-          <SkillItem title="TypeScript" year="1年" rate={3} />
+          <SkillItem title="WSL2" year="3年" rate={5} />
+          <SkillItem title="NewRelic" year="2年" rate={4} />
+          <SkillItem title="JIRA" year="2年" rate={3} />
+          <SkillItem title="Confluence" year="2年" rate={3} />
         </SkillBoard>
       </div>
     </Section>

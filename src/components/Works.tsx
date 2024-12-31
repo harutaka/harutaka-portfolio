@@ -3,9 +3,7 @@ import Link from "next/link"
 import Section from "./Section"
 import detectiveImg from "@/../public/img/works/detective_overview.jpg"
 import bitoolImg from "@/../public/img/works/bitool_overview.jpg"
-import refriImg from "@/../public/img/works/refrigerator_overview.jpg"
 import portfolioImg from "@/../public/img/works/portfolio_overview.jpg"
-import lpCollectionImg from "@/../public/img/works/lpcollection_overview.jpg"
 
 type WorkCardProps = {
   href: string
@@ -47,24 +45,10 @@ const Works = () => {
           />
 
           <WorkCard
-            title="IoT冷蔵庫のユーザーサービスサイト"
-            imgSrc={refriImg}
-            href="/works/refrigerator"
-            description="有志による課外活動で、架空のIoT冷蔵庫を題材に、自宅の冷蔵庫の状態がわかるサービスの試作をしました。"
-          />
-
-          <WorkCard
             title="ポートフォリオサイト"
             imgSrc={portfolioImg}
             href="/works/portfolio"
             description="このサイトです。Next.jsを使用しています。"
-          />
-
-          <WorkCard
-            title="模写コーディング一覧"
-            imgSrc={lpCollectionImg}
-            href="/works/lpcollection"
-            description="過去に模写コーディングしたサイトの一覧です。"
           />
         </div>
       </div>
