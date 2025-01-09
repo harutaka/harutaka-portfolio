@@ -2,7 +2,7 @@ import Image, { StaticImageData } from "next/image"
 import Link from "next/link"
 import Section from "./Section"
 import detectiveImg from "@/../public/img/works/detective_overview.jpg"
-import bitoolImg from "@/../public/img/works/bitool_overview.jpg"
+import grpcHealthImg from "@/../public/img/works/gprc_health_check.jpg"
 import portfolioImg from "@/../public/img/works/portfolio_overview.jpg"
 
 type WorkCardProps = {
@@ -38,10 +38,10 @@ const Works = () => {
           />
 
           <WorkCard
-            title="データ分析サイト構築"
-            imgSrc={bitoolImg}
-            href="/works/bitool"
-            description="社内サーバーにBIツールを導入しました。商品企画やメンテナンスにご活用いただいています。"
+            title="Node.js用パッケージ作成"
+            imgSrc={grpcHealthImg}
+            href="/works/grpchealth"
+            description="gPRC用のヘルスチェックツールを作成しました。"
           />
 
           <WorkCard
