@@ -5,7 +5,7 @@ import LayoutWorks from "@/components/works/LayoutWorks"
 import PWorks from "@/components/works/PWorks"
 import grpcHealthImg from "@/../public/img/works/gprc_health_check.jpg"
 
-const Portfolio: NextPage = () => {
+const GrpcHealth: NextPage = () => {
   return (
     <LayoutWorks title="Node.js用パッケージ作成">
       <div className="pb-4 text-center">
@@ -25,6 +25,10 @@ const Portfolio: NextPage = () => {
         gRPC通信でのバックエンドの構築に携わった際、ヘルスチェックが意外と難しく、
         世の中に様々な手段はあれど、簡易に使用できる手段に乏しいと思ったので自作しました。
       </PWorks>
+      <PWorks>
+        使い方の例として、ES Modulesを記載していますが、
+        CommonJSも対応しています。（この両対応が地味に大変でした）
+      </PWorks>
 
       <H3Works>使用した技術</H3Works>
       <PWorks>gRPC | Vitest | TypeScript | eslint | prettier</PWorks>
@@ -32,4 +36,4 @@ const Portfolio: NextPage = () => {
   )
 }
 
-export default Portfolio
+export default GrpcHealth
