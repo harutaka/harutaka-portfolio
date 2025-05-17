@@ -1,4 +1,4 @@
-import { type PageProps } from "$fresh/server.ts";
+import { type PageProps } from "$fresh/server.ts"
 export default function App({ Component }: PageProps) {
   return (
     <html lang="ja" data-theme="light">
@@ -7,7 +7,10 @@ export default function App({ Component }: PageProps) {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>harutaka portfolio</title>
         <link rel="stylesheet" href="/styles.css" />
-        <meta name="description" content="はるたかのポートフォリオサイトです。JavaScript系のWebアプリ制作はお任せください。" />
+        <meta
+          name="description"
+          content="はるたかのポートフォリオサイトです。JavaScript系のWebアプリ制作はお任せください。"
+        />
 
         <meta property="og:title" content="harutaka portfolio" />
         <meta property="og:type" content="website" />
@@ -18,5 +21,5 @@ export default function App({ Component }: PageProps) {
         <Component />
       </body>
     </html>
-  );
+  )
 }
