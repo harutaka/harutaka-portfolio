@@ -1,0 +1,10 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+a {
+  @apply hover:opacity-70;
+}
+
+body {
+  @apply bg-base-200;
+}
