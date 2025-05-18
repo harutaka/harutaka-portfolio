@@ -1,5 +1,5 @@
 import { ComponentChildren } from "preact"
-import { UserIcon, ComputerDesktopIcon, GlobeAltIcon, EnvelopeIcon } from "./Icons.tsx"
+import { ComputerDesktopIcon, EnvelopeIcon, GlobeAltIcon, UserIcon } from "./Icons.tsx"
 
 const iconComponents = {
   profile: UserIcon,

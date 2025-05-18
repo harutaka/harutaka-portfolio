@@ -1,4 +1,4 @@
-import { JSX, FunctionComponent } from "preact"
+import { FunctionComponent, JSX } from "preact"
 import { ComputerDesktopIcon, EnvelopeIcon, GlobeAltIcon, UserIcon } from "./Icons.tsx"
 
 const iconClass = "mr-1 w-5 h-5 md:w-6 md:h-6"
@@ -21,6 +21,7 @@ const LiItem: FunctionComponent<LiItemProps> = (props) => {
 
 const Header = (props: JSX.HTMLAttributes<HTMLElement>) => {
   return (
+    // bgスタイル指定は、stickyの時にヘッダーが隠れないようにするため
     <nav id="header" class={`top-0 z-20 w-full bg-base-200 ${props.class}`}>
       <div class="py-4 px-10">
         <ul class="flex justify-center">

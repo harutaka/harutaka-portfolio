@@ -1,12 +1,6 @@
 import { ComponentChildren } from "preact"
 import Section from "./Section.tsx"
-import {
-  PencilSquareIcon,
-  ServerStackIcon,
-  Cog8ToothIcon,
-  PresentationChartLineIcon,
-  StarIcon,
-} from "./Icons.tsx"
+import { Cog8ToothIcon, PencilSquareIcon, PresentationChartLineIcon, ServerStackIcon, StarIcon } from "./Icons.tsx"
 
 const iconComponents = {
   pencil: PencilSquareIcon,
@@ -53,12 +47,8 @@ const SkillItem = ({ title, year, rate }: SkillItemProps) => {
       <div class="w-5/12">{title}</div>
       <div class="w-3/12">{year}</div>
       <div class="flex justify-center w-4/12">
-        {[...Array(rate)].map((_, i) => (
-          <StarIcon key={i} class="w-4 h-4 text-primary md:w-5 md:h-5" />
-        ))}
-        {[...Array(5 - rate)].map((_, i) => (
-          <StarIcon key={i} class="w-4 h-4 text-primary-content md:w-5 md:h-5" />
-        ))}
+        {[...Array(rate)].map((_, i) => <StarIcon key={i} class="w-4 h-4 text-primary md:w-5 md:h-5" />)}
+        {[...Array(5 - rate)].map((_, i) => <StarIcon key={i} class="w-4 h-4 text-primary-content md:w-5 md:h-5" />)}
       </div>
     </div>
   )
@@ -76,7 +66,11 @@ const Skill = () => {
           <SkillItem title="Next.js" year="2年" rate={3} />
         </SkillBoard>
 
-        <SkillBoard title="Backend" iconType="server" description="Expressでの実績が多いですが、直近ではMicronautを使っています。">
+        <SkillBoard
+          title="Backend"
+          iconType="server"
+          description="Expressでの実績が多いですが、直近ではMicronautを使っています。"
+        >
           <SkillItem title="Node.js" year="5年以上" rate={5} />
           <SkillItem title="Express.js" year="5年以上" rate={5} />
           <SkillItem title="Python" year="2年" rate={3} />

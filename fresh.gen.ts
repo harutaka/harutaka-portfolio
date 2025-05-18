@@ -9,6 +9,12 @@ import * as $daisy from "./routes/daisy.tsx"
 import * as $greet_name_ from "./routes/greet/[name].tsx"
 import * as $home from "./routes/home.tsx"
 import * as $index from "./routes/index.tsx"
+import * as $works_bitool from "./routes/works/bitool.tsx"
+import * as $works_detective from "./routes/works/detective.tsx"
+import * as $works_grpchealth from "./routes/works/grpchealth.tsx"
+import * as $works_lpcollection from "./routes/works/lpcollection.tsx"
+import * as $works_portfolio from "./routes/works/portfolio.tsx"
+import * as $works_regrigerator from "./routes/works/regrigerator.tsx"
 import * as $Counter from "./islands/Counter.tsx"
 import type { Manifest } from "$fresh/server.ts"
 
@@ -21,6 +27,12 @@ const manifest = {
     "./routes/greet/[name].tsx": $greet_name_,
     "./routes/home.tsx": $home,
     "./routes/index.tsx": $index,
+    "./routes/works/bitool.tsx": $works_bitool,
+    "./routes/works/detective.tsx": $works_detective,
+    "./routes/works/grpchealth.tsx": $works_grpchealth,
+    "./routes/works/lpcollection.tsx": $works_lpcollection,
+    "./routes/works/portfolio.tsx": $works_portfolio,
+    "./routes/works/regrigerator.tsx": $works_regrigerator,
   },
   islands: {
     "./islands/Counter.tsx": $Counter,
