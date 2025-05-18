@@ -17,14 +17,15 @@ const Portfolio = () => {
       </PWorks>
 
       <H3Works>説明</H3Works>
-      <PWorks>このサイトです。Next.jsで制作しています。</PWorks>
+      <PWorks>このサイトです。Freshで制作しています。</PWorks>
       <PWorks>
         デザインはTailBlocksを参考に、アレンジしています。アイコンはheroiconsのSVGアイコンを使用しています。
-        画像はフリー素材と、パワーポイントで作成した構成図を使用しました。
+        元々Node.js/Next.jsで作成したサイトを、Deno/Freshに移行しました。
+        DenoはTypeScriptネイティブで体験がよく、今後も積極的に使用していきたいです。
       </PWorks>
 
       <H3Works>使用した技術</H3Works>
-      <PWorks>Next.js | Tailwind CSS | daisyUI | TypeScript | eslint | prettier</PWorks>
+      <PWorks>Deno | Fresh | Tailwind CSS | daisyUI </PWorks>
     </LayoutWorks>
   )
 }

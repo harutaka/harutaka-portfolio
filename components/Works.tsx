@@ -43,7 +43,7 @@ const Works = () => {
             title="ポートフォリオサイト"
             imgSrc="/img/works/portfolio_overview.jpg"
             href="/works/portfolio"
-            description="このサイトです。Next.jsを使用しています。"
+            description="このサイトです。Freshを使用しています。"
           />
         </div>
       </div>

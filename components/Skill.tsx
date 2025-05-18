@@ -63,7 +63,7 @@ const Skill = () => {
           <SkillItem title="JavaScript" year="5年以上" rate={5} />
           <SkillItem title="TypeScript" year="3年" rate={3} />
           <SkillItem title="React" year="2年" rate={3} />
-          <SkillItem title="Next.js" year="2年" rate={3} />
+          <SkillItem title="Next.js/Fresh" year="2年" rate={3} />
         </SkillBoard>
 
         <SkillBoard
@@ -71,10 +71,10 @@ const Skill = () => {
           iconType="server"
           description="Expressでの実績が多いですが、直近ではMicronautを使っています。"
         >
-          <SkillItem title="Node.js" year="5年以上" rate={5} />
+          <SkillItem title="Node.js/Deno" year="5年以上" rate={5} />
           <SkillItem title="Express.js" year="5年以上" rate={5} />
           <SkillItem title="Python" year="2年" rate={3} />
-          <SkillItem title="GRPC" year="2年" rate={3} />
+          <SkillItem title="gRPC" year="2年" rate={3} />
           <SkillItem title="Micronaut(kotlin)" year="2年" rate={3} />
         </SkillBoard>
 
