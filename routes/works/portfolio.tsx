@@ -11,8 +11,8 @@ const Portfolio = () => {
 
       <H3Works>URL</H3Works>
       <PWorks>
-        <a href="https://harutaka-portfolio.vercel.app/" class="underline">
-          https://harutaka-portfolio.vercel.app/
+        <a href="https://harutaka-portfolio.deno.dev" class="underline">
+          https://harutaka-portfolio.deno.dev
         </a>
       </PWorks>
 

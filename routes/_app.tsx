@@ -14,8 +14,8 @@ export default function App({ Component }: PageProps) {
 
         <meta property="og:title" content="harutaka portfolio" />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://harutaka-portfolio.vercel.app" />
-        <meta property="og:image" content="https://harutaka-portfolio.vercel.app/img/works/portfolio_overview.jpg" />
+        <meta property="og:url" content="https://harutaka-portfolio.deno.dev" />
+        <meta property="og:image" content="https://harutaka-portfolio.deno.dev/img/works/portfolio_overview.jpg" />
       </head>
       <body>
         <Component />
