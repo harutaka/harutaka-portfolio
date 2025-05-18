@@ -1,8 +1,6 @@
 import { JSX } from "preact"
 
-interface IconProps extends JSX.HTMLAttributes<SVGSVGElement> {
-  class?: string
-}
+type IconProps = JSX.HTMLAttributes<SVGSVGElement>
 
 export const TwitterIcon = (props: IconProps) => {
   const combinedClass = `fill-current ${props.class}`

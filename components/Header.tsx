@@ -1,4 +1,4 @@
-import { JSX } from "preact"
+import { JSX, FunctionComponent } from "preact"
 import { ComputerDesktopIcon, EnvelopeIcon, GlobeAltIcon, UserIcon } from "./Icons.tsx"
 
 const iconClass = "mr-1 w-5 h-5 md:w-6 md:h-6"
@@ -6,24 +6,20 @@ const iconClass = "mr-1 w-5 h-5 md:w-6 md:h-6"
 type LiItemProps = {
   href: string
   title: string
-  children?: JSX.Element
 }
 
-const LiItem = ({ href, title, children }: LiItemProps) => {
+const LiItem: FunctionComponent<LiItemProps> = (props) => {
   return (
     <li class="mx-2 text-sm font-bold md:mx-5 md:text-lg">
-      <a href={href} class="flex items-center">
-        {children}
-        {title}
+      <a href={props.href} class="flex items-center">
+        {props.children}
+        {props.title}
       </a>
     </li>
   )
 }
 
-interface HeaderProps extends JSX.HTMLAttributes<HTMLElement> {
-  class?: string
-}
-const Header = (props: HeaderProps) => {
+const Header = (props: JSX.HTMLAttributes<HTMLElement>) => {
   return (
     <nav id="header" class={`top-0 z-20 w-full bg-base-200 ${props.class}`}>
       <div class="py-4 px-10">

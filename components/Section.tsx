@@ -1,4 +1,4 @@
-import { JSX } from "preact"
+import { ComponentChildren } from "preact"
 import { UserIcon, ComputerDesktopIcon, GlobeAltIcon, EnvelopeIcon } from "./Icons.tsx"
 
 const iconComponents = {
@@ -11,7 +11,7 @@ const iconComponents = {
 type SectionProps = {
   id: "profile" | "skill" | "works" | "contact"
   title: string
-  children: JSX.Element
+  children: ComponentChildren
   class?: string | undefined
 }
 const Section = (props: SectionProps) => {
