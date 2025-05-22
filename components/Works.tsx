@@ -29,7 +29,7 @@ const Works = () => {
             title="探偵事務所のデモサイト制作"
             imgSrc="/img/works/detective_overview.jpg"
             href="/works/detective"
-            description="架空の探偵事務所を題材に、Next.jsでオリジナルサイトを制作しました。"
+            description="架空の探偵事務所を題材に、オリジナルサイトを制作しました。"
           />
 
           <WorkCard

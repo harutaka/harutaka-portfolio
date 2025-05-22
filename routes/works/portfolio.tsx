@@ -25,7 +25,7 @@ const Portfolio = () => {
       </PWorks>
 
       <H3Works>使用した技術</H3Works>
-      <PWorks>Deno | Fresh | Tailwind CSS | daisyUI </PWorks>
+      <PWorks>Deno | Fresh | Tailwind CSS | daisyUI | TypeScript</PWorks>
     </LayoutWorks>
   )
 }

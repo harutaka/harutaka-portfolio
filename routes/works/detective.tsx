@@ -9,20 +9,20 @@ const Detective = () => {
 
       <H3Works>URL</H3Works>
       <PWorks>
-        <a href="https://fumiduki-detective.vercel.app/" class="underline">
-          https://fumiduki-detective.vercel.app/
+        <a href="https://fumiduki-detective.deno.dev" class="underline">
+          https://fumiduki-detective.deno.dev
         </a>
       </PWorks>
 
       <H3Works>説明</H3Works>
       <PWorks>探偵事務所から、コーポレートサイトの制作依頼を受けた想定で、架空のサイトを作成しました。</PWorks>
       <PWorks>
-        このサイトはNext.jsで作成しています。ロゴは自作し、他の素材はフリー素材を使用しました。
-        文章の作成には、生成AIを活用しています。デプロイ先はVercelにしました。
+        このサイトはFreshで作成しています。ロゴは自作し、他の素材はフリー素材を使用しました。
+        文章の作成には、生成AIを活用しています。
       </PWorks>
 
       <H3Works>使用した技術</H3Works>
-      <PWorks>Next.js | Tailwind CSS | TypeScript | eslint | prettier</PWorks>
+      <PWorks>Deno | Fresh | Tailwind CSS | TypeScript</PWorks>
     </LayoutWorks>
   )
 }
