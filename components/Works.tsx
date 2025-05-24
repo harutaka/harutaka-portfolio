@@ -33,7 +33,7 @@ const Works = () => {
           />
 
           <WorkCard
-            title="Node.js用パッケージ作成"
+            title="Node.js/Deno用パッケージ作成"
             imgSrc="/img/works/gprc_health_check.jpg"
             href="/works/grpchealth"
             description="gPRC用のヘルスチェックツールを作成しました。"
