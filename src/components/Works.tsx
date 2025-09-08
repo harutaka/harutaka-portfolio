@@ -15,7 +15,7 @@ const WorkCard = ({ href, imgSrc, title, description }: WorkCardProps) => {
   return (
     <Link className="card bg-base-100 shadow-xl" href={href}>
       <figure>
-        <Image src={imgSrc} alt="card" />
+        <Image className="aspect-[2/1]" src={imgSrc} alt="card" />
       </figure>
       <div className="card-body">
         <h2 className="card-title">{title}</h2>
