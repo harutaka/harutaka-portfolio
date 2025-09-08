@@ -1,16 +1,16 @@
-import Image, { StaticImageData } from "next/image"
-import Link from "next/link"
-import Section from "./Section"
-import detectiveImg from "@/../public/img/works/detective_overview.jpg"
-import grpcHealthImg from "@/../public/img/works/gprc_health_check.jpg"
-import portfolioImg from "@/../public/img/works/portfolio_overview.jpg"
+import Image, { StaticImageData } from "next/image";
+import Link from "next/link";
+import Section from "./Section";
+import detectiveImg from "@/../public/img/works/detective_overview.jpg";
+import grpcHealthImg from "@/../public/img/works/gprc_health_check.jpg";
+import portfolioImg from "@/../public/img/works/portfolio_overview.jpg";
 
 type WorkCardProps = {
-  href: string
-  imgSrc: StaticImageData
-  title: string
-  description: string
-}
+  href: string;
+  imgSrc: StaticImageData;
+  title: string;
+  description: string;
+};
 const WorkCard = ({ href, imgSrc, title, description }: WorkCardProps) => {
   return (
     <Link className="card bg-base-100 shadow-xl" href={href}>
@@ -22,8 +22,8 @@ const WorkCard = ({ href, imgSrc, title, description }: WorkCardProps) => {
         <p>{description}</p>
       </div>
     </Link>
-  )
-}
+  );
+};
 
 const Works = () => {
   return (
@@ -53,7 +53,7 @@ const Works = () => {
         </div>
       </div>
     </Section>
-  )
-}
+  );
+};
 
-export default Works
+export default Works;

@@ -1,5 +1,5 @@
-import Link from "next/link"
-import { ChevronUpIcon } from "@heroicons/react/24/solid"
+import Link from "next/link";
+import { ChevronUpIcon } from "@heroicons/react/24/solid";
 
 const Footer = () => {
   return (
@@ -21,7 +21,7 @@ const Footer = () => {
         </Link>
       </div>
     </footer>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;

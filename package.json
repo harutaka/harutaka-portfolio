@@ -5,7 +5,9 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "biome lint --write src/",
+    "check": "biome check --write src/",
+    "format": "biome format --write src/"
   },
   "prettier": {
     "printWidth": 120,

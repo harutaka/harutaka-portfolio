@@ -1,10 +1,10 @@
-import type { NextPage } from "next"
-import Link from "next/link"
-import Image from "next/image"
-import H3Works from "@/components/works/H3Works"
-import LayoutWorks from "@/components/works/LayoutWorks"
-import PWorks from "@/components/works/PWorks"
-import detectiveImg from "@/../public/img/works/detective_overview.jpg"
+import type { NextPage } from "next";
+import Link from "next/link";
+import Image from "next/image";
+import H3Works from "@/components/works/H3Works";
+import LayoutWorks from "@/components/works/LayoutWorks";
+import PWorks from "@/components/works/PWorks";
+import detectiveImg from "@/../public/img/works/detective_overview.jpg";
 
 const Detective: NextPage = () => {
   return (
@@ -28,7 +28,7 @@ const Detective: NextPage = () => {
       <H3Works>使用した技術</H3Works>
       <PWorks>Next.js | Tailwind CSS | TypeScript | biome</PWorks>
     </LayoutWorks>
-  )
-}
+  );
+};
 
-export default Detective
+export default Detective;

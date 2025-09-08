@@ -1,6 +1,6 @@
-import React from "react"
-import Image from "next/image"
-import portfolioCover from "@/../public/img/portfolio_cover.jpg"
+import React from "react";
+import Image from "next/image";
+import portfolioCover from "@/../public/img/portfolio_cover.jpg";
 
 const Banner = () => {
   return (
@@ -12,7 +12,7 @@ const Banner = () => {
         className="object-cover w-full h-[120px] md:h-[300px]"
       />
     </div>
-  )
-}
+  );
+};
 
-export default Banner
+export default Banner;

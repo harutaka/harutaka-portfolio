@@ -1,11 +1,11 @@
-import { ReactNode } from "react"
-import Footer from "@/components/Footer"
-import Header from "@/components/Header"
+import { ReactNode } from "react";
+import Footer from "@/components/Footer";
+import Header from "@/components/Header";
 
 type LayoutWorksProps = {
-  title: string
-  children: ReactNode
-}
+  title: string;
+  children: ReactNode;
+};
 
 const LayoutWorks = ({ title, children }: LayoutWorksProps) => {
   return (
@@ -19,7 +19,7 @@ const LayoutWorks = ({ title, children }: LayoutWorksProps) => {
 
       <Footer />
     </>
-  )
-}
+  );
+};
 
-export default LayoutWorks
+export default LayoutWorks;

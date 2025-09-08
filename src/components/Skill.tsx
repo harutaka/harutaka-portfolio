@@ -1,28 +1,28 @@
-import { ReactNode } from "react"
-import Section from "./Section"
+import { ReactNode } from "react";
+import Section from "./Section";
 import {
   PencilSquareIcon,
   ServerStackIcon,
   Cog8ToothIcon,
   PresentationChartLineIcon,
   StarIcon,
-} from "@heroicons/react/24/solid"
+} from "@heroicons/react/24/solid";
 
 const iconComponents = {
   pencil: PencilSquareIcon,
   server: ServerStackIcon,
   tooth: Cog8ToothIcon,
   chart: PresentationChartLineIcon,
-}
+};
 
 type SkillBoardProps = {
-  title: string
-  description: string
-  iconType: "pencil" | "server" | "tooth" | "chart"
-  children: ReactNode
-}
+  title: string;
+  description: string;
+  iconType: "pencil" | "server" | "tooth" | "chart";
+  children: ReactNode;
+};
 const SkillBoard = ({ title, description, iconType, children }: SkillBoardProps) => {
-  const IconComponent = iconComponents[iconType]
+  const IconComponent = iconComponents[iconType];
   return (
     <div className="py-8 mb-8 bg-base-100 shadow-md md:mb-0">
       <div className="flex justify-center items-center text-3xl font-bold">
@@ -39,14 +39,14 @@ const SkillBoard = ({ title, description, iconType, children }: SkillBoardProps)
       </div>
       {children}
     </div>
-  )
-}
+  );
+};
 
 type SkillItemProps = {
-  title: string
-  year: string
-  rate: 1 | 2 | 3 | 4 | 5
-}
+  title: string;
+  year: string;
+  rate: 1 | 2 | 3 | 4 | 5;
+};
 const SkillItem = ({ title, year, rate }: SkillItemProps) => {
   return (
     <div className="flex my-4 text-center">
@@ -61,8 +61,8 @@ const SkillItem = ({ title, year, rate }: SkillItemProps) => {
         ))}
       </div>
     </div>
-  )
-}
+  );
+};
 
 const Skill = () => {
   return (
@@ -76,7 +76,11 @@ const Skill = () => {
           <SkillItem title="Next.js" year="2年" rate={3} />
         </SkillBoard>
 
-        <SkillBoard title="Backend" iconType="server" description="Expressでの実績が多いですが、直近ではMicronautを使っています。">
+        <SkillBoard
+          title="Backend"
+          iconType="server"
+          description="Expressでの実績が多いですが、直近ではMicronautを使っています。"
+        >
           <SkillItem title="Node.js" year="5年以上" rate={5} />
           <SkillItem title="Express.js" year="5年以上" rate={5} />
           <SkillItem title="Python" year="2年" rate={3} />
@@ -102,7 +106,7 @@ const Skill = () => {
         </SkillBoard>
       </div>
     </Section>
-  )
-}
+  );
+};
 
-export default Skill
+export default Skill;

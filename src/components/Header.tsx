@@ -1,14 +1,14 @@
-import Link from "next/link"
-import { ReactNode } from "react"
-import { UserIcon, ComputerDesktopIcon, GlobeAltIcon, EnvelopeIcon } from "@heroicons/react/24/solid"
+import Link from "next/link";
+import { ReactNode } from "react";
+import { UserIcon, ComputerDesktopIcon, GlobeAltIcon, EnvelopeIcon } from "@heroicons/react/24/solid";
 
-const iconClass = "mr-1 w-5 h-5 md:w-6 md:h-6"
+const iconClass = "mr-1 w-5 h-5 md:w-6 md:h-6";
 
 type LiItemProps = {
-  href: string
-  title: string
-  children?: ReactNode
-}
+  href: string;
+  title: string;
+  children?: ReactNode;
+};
 
 const LiItem = ({ href, title, children }: LiItemProps) => {
   return (
@@ -18,12 +18,12 @@ const LiItem = ({ href, title, children }: LiItemProps) => {
         {title}
       </Link>
     </li>
-  )
-}
+  );
+};
 
 type HeaderProps = {
-  className?: string | undefined
-}
+  className?: string | undefined;
+};
 const Header = ({ className }: HeaderProps) => {
   return (
     <nav id="header" className={`top-0 z-20 w-full bg-base-200 ${className}`}>
@@ -44,7 +44,7 @@ const Header = ({ className }: HeaderProps) => {
         </ul>
       </div>
     </nav>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;

@@ -1,11 +1,11 @@
-import Banner from "@/components/Banner"
-import Contact from "@/components/Contact"
-import Footer from "@/components/Footer"
-import Header from "@/components/Header"
-import Profile from "@/components/Profile"
-import Skill from "@/components/Skill"
-import Works from "@/components/Works"
-import React from "react"
+import Banner from "@/components/Banner";
+import Contact from "@/components/Contact";
+import Footer from "@/components/Footer";
+import Header from "@/components/Header";
+import Profile from "@/components/Profile";
+import Skill from "@/components/Skill";
+import Works from "@/components/Works";
+import React from "react";
 
 const Home = () => {
   return (
@@ -20,7 +20,7 @@ const Home = () => {
       </main>
       <Footer />
     </>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;

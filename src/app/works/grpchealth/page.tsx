@@ -1,9 +1,9 @@
-import type { NextPage } from "next"
-import Image from "next/image"
-import H3Works from "@/components/works/H3Works"
-import LayoutWorks from "@/components/works/LayoutWorks"
-import PWorks from "@/components/works/PWorks"
-import grpcHealthImg from "@/../public/img/works/gprc_health_check.jpg"
+import type { NextPage } from "next";
+import Image from "next/image";
+import H3Works from "@/components/works/H3Works";
+import LayoutWorks from "@/components/works/LayoutWorks";
+import PWorks from "@/components/works/PWorks";
+import grpcHealthImg from "@/../public/img/works/gprc_health_check.jpg";
 
 const GrpcHealth: NextPage = () => {
   return (
@@ -25,14 +25,12 @@ const GrpcHealth: NextPage = () => {
         gRPC通信でのバックエンドの構築に携わった際、ヘルスチェックが意外と難しく、
         世の中に様々な手段はあれど、簡易に使用できる手段に乏しいと思ったので自作しました。
       </PWorks>
-      <PWorks>
-        使い方の例としてES Modulesを記載していますが、 CommonJSも対応しています。
-      </PWorks>
+      <PWorks>使い方の例としてES Modulesを記載していますが、 CommonJSも対応しています。</PWorks>
 
       <H3Works>使用した技術</H3Works>
       <PWorks>gRPC | Deno | TypeScript | Connect | Buf</PWorks>
     </LayoutWorks>
-  )
-}
+  );
+};
 
-export default GrpcHealth
+export default GrpcHealth;

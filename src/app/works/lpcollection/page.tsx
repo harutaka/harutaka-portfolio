@@ -1,9 +1,9 @@
-import type { NextPage } from "next"
-import Image from "next/image"
-import H3Works from "@/components/works/H3Works"
-import LayoutWorks from "@/components/works/LayoutWorks"
-import PWorks from "@/components/works/PWorks"
-import overviewImg from "@/../public/img/works/lpcollection_overview.jpg"
+import type { NextPage } from "next";
+import Image from "next/image";
+import H3Works from "@/components/works/H3Works";
+import LayoutWorks from "@/components/works/LayoutWorks";
+import PWorks from "@/components/works/PWorks";
+import overviewImg from "@/../public/img/works/lpcollection_overview.jpg";
 
 const Lpcollection: NextPage = () => {
   return (
@@ -37,7 +37,7 @@ const Lpcollection: NextPage = () => {
         </a>
       </PWorks>
     </LayoutWorks>
-  )
-}
+  );
+};
 
-export default Lpcollection
+export default Lpcollection;
