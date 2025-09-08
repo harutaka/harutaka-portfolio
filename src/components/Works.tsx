@@ -1,7 +1,7 @@
 import Image, { type StaticImageData } from "next/image";
 import Link from "next/link";
 import detectiveImg from "@/../public/img/works/detective_overview.jpg";
-import grpcHealthImg from "@/../public/img/works/gprc_health_check.jpg";
+import htmlRagImg from "@/../public/img/works/html_rag_optimizer.png";
 import portfolioImg from "@/../public/img/works/portfolio_overview.jpg";
 import Section from "./Section";
 
@@ -38,10 +38,10 @@ const Works = () => {
           />
 
           <WorkCard
-            title="Node.js/Deno用パッケージ作成"
-            imgSrc={grpcHealthImg}
-            href="/works/grpchealth"
-            description="gPRC用のヘルスチェックツールを作成しました。"
+            title="npmパッケージ作成"
+            imgSrc={htmlRagImg}
+            href="/works/htmlrag"
+            description="RAG検索効率化のためのHTML最適化ツールを作成しました。"
           />
 
           <WorkCard
