@@ -27,7 +27,7 @@ const Portfolio: NextPage = () => {
       </PWorks>
 
       <H3Works>使用した技術</H3Works>
-      <PWorks>Next.js | Tailwind CSS | daisyUI | TypeScript | eslint | prettier</PWorks>
+      <PWorks>Next.js | Tailwind CSS | daisyUI | TypeScript | biome</PWorks>
     </LayoutWorks>
   )
 }
