@@ -19,10 +19,6 @@ export const metadata: Metadata = {
     description: "はるたかのポートフォリオサイトです。Node.js系のWebアプリ制作はお任せください。",
     images: [{ url: "https://harutaka-portfolio.vercel.app/img/works/portfolio_overview.jpg" }],
   },
-  twitter: {
-    card: "summary_large_image",
-  },
-  alternates: { canonical: "https://harutaka-portfolio.vercel.app" },
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
