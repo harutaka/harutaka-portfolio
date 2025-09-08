@@ -1,4 +1,3 @@
-import React from "react";
 import Image from "next/image";
 import portfolioCover from "@/../public/img/portfolio_cover.jpg";
 

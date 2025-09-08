@@ -1,12 +1,12 @@
-import { ReactNode } from "react";
-import Section from "./Section";
 import {
-  PencilSquareIcon,
-  ServerStackIcon,
   Cog8ToothIcon,
+  PencilSquareIcon,
   PresentationChartLineIcon,
+  ServerStackIcon,
   StarIcon,
 } from "@heroicons/react/24/solid";
+import type { ReactNode } from "react";
+import Section from "./Section";
 
 const iconComponents = {
   pencil: PencilSquareIcon,

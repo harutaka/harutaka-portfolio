@@ -1,9 +1,9 @@
-import Image, { StaticImageData } from "next/image";
+import Image, { type StaticImageData } from "next/image";
 import Link from "next/link";
-import Section from "./Section";
 import detectiveImg from "@/../public/img/works/detective_overview.jpg";
 import grpcHealthImg from "@/../public/img/works/gprc_health_check.jpg";
 import portfolioImg from "@/../public/img/works/portfolio_overview.jpg";
+import Section from "./Section";
 
 type WorkCardProps = {
   href: string;

@@ -1,9 +1,9 @@
 import type { NextPage } from "next";
 import Image from "next/image";
+import grpcHealthImg from "@/../public/img/works/gprc_health_check.jpg";
 import H3Works from "@/components/works/H3Works";
 import LayoutWorks from "@/components/works/LayoutWorks";
 import PWorks from "@/components/works/PWorks";
-import grpcHealthImg from "@/../public/img/works/gprc_health_check.jpg";
 
 const GrpcHealth: NextPage = () => {
   return (

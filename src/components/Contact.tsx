@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
-import Section from "./Section";
 import harutakaAvatar from "@/../public/img/harutaka_icon_360.png";
+import Section from "./Section";
 
 const Contact = () => {
   return (

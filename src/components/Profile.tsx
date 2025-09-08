@@ -1,7 +1,7 @@
 import Image from "next/image";
+import harutakaAvatar from "@/../public/img/harutaka_icon_360.png";
 import Experience from "./Experience";
 import Section from "./Section";
-import harutakaAvatar from "@/../public/img/harutaka_icon_360.png";
 
 const Profile = () => {
   return (

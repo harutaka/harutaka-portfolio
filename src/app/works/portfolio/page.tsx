@@ -1,9 +1,9 @@
 import type { NextPage } from "next";
 import Image from "next/image";
+import overviewImg from "@/../public/img/works/portfolio_overview.jpg";
 import H3Works from "@/components/works/H3Works";
 import LayoutWorks from "@/components/works/LayoutWorks";
 import PWorks from "@/components/works/PWorks";
-import overviewImg from "@/../public/img/works/portfolio_overview.jpg";
 
 const Portfolio: NextPage = () => {
   return (

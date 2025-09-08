@@ -5,7 +5,6 @@ import Header from "@/components/Header";
 import Profile from "@/components/Profile";
 import Skill from "@/components/Skill";
 import Works from "@/components/Works";
-import React from "react";
 
 const Home = () => {
   return (

@@ -1,6 +1,6 @@
+import { ComputerDesktopIcon, EnvelopeIcon, GlobeAltIcon, UserIcon } from "@heroicons/react/24/solid";
 import Link from "next/link";
-import { ReactNode } from "react";
-import { UserIcon, ComputerDesktopIcon, GlobeAltIcon, EnvelopeIcon } from "@heroicons/react/24/solid";
+import type { ReactNode } from "react";
 
 const iconClass = "mr-1 w-5 h-5 md:w-6 md:h-6";
 

@@ -1,11 +1,11 @@
 import type { NextPage } from "next";
 import Image from "next/image";
+import archImg from "@/../public/img/works/bitool_architecture.jpg";
+import overviewImg from "@/../public/img/works/bitool_overview.jpg";
+import geoImg from "@/../public/img/works/bitool_quicksight_geoimage.png";
 import H3Works from "@/components/works/H3Works";
 import LayoutWorks from "@/components/works/LayoutWorks";
 import PWorks from "@/components/works/PWorks";
-import overviewImg from "@/../public/img/works/bitool_overview.jpg";
-import geoImg from "@/../public/img/works/bitool_quicksight_geoimage.png";
-import archImg from "@/../public/img/works/bitool_architecture.jpg";
 
 const Bitool: NextPage = () => {
   return (

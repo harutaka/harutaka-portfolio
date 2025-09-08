@@ -1,5 +1,5 @@
-import React, { ReactNode } from "react";
-import { UserIcon, ComputerDesktopIcon, GlobeAltIcon, EnvelopeIcon } from "@heroicons/react/24/solid";
+import { ComputerDesktopIcon, EnvelopeIcon, GlobeAltIcon, UserIcon } from "@heroicons/react/24/solid";
+import type { ReactNode } from "react";
 
 const iconComponents = {
   profile: UserIcon,

@@ -1,10 +1,10 @@
 import type { NextPage } from "next";
-import Link from "next/link";
 import Image from "next/image";
+import Link from "next/link";
+import detectiveImg from "@/../public/img/works/detective_overview.jpg";
 import H3Works from "@/components/works/H3Works";
 import LayoutWorks from "@/components/works/LayoutWorks";
 import PWorks from "@/components/works/PWorks";
-import detectiveImg from "@/../public/img/works/detective_overview.jpg";
 
 const Detective: NextPage = () => {
   return (
