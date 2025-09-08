@@ -1,9 +1,10 @@
-import { ReactNode } from "react"
+import type { ReactNode } from "react";
+
 type ExperienceItemProps = {
-  year: number
-  title: string
-  children: ReactNode
-}
+  year: number;
+  title: string;
+  children: ReactNode;
+};
 const ExperienceItem = ({ year, title, children }: ExperienceItemProps) => {
   return (
     <div className="flex relative pt-10 pb-8 mx-auto sm:items-center md:w-full">
@@ -20,8 +21,8 @@ const ExperienceItem = ({ year, title, children }: ExperienceItemProps) => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
 const Experience = () => {
   return (
@@ -55,7 +56,7 @@ const Experience = () => {
         これらの取り組みにより、開発速度の向上とサービス品質の改善に貢献しています。
       </ExperienceItem>
     </div>
-  )
-}
+  );
+};
 
-export default Experience
+export default Experience;

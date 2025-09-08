@@ -1,11 +1,11 @@
-import type { NextPage } from "next"
-import Image from "next/image"
-import H3Works from "@/components/works/H3Works"
-import LayoutWorks from "@/components/works/LayoutWorks"
-import PWorks from "@/components/works/PWorks"
-import overviewImg from "@/../public/img/works/refrigerator_overview.jpg"
-import arch01Img from "@/../public/img/works/refrigerator_arch01.jpg"
-import arch02Img from "@/../public/img/works/refrigerator_arch02.jpg"
+import type { NextPage } from "next";
+import Image from "next/image";
+import arch01Img from "@/../public/img/works/refrigerator_arch01.jpg";
+import arch02Img from "@/../public/img/works/refrigerator_arch02.jpg";
+import overviewImg from "@/../public/img/works/refrigerator_overview.jpg";
+import H3Works from "@/components/works/H3Works";
+import LayoutWorks from "@/components/works/LayoutWorks";
+import PWorks from "@/components/works/PWorks";
 
 const Detective: NextPage = () => {
   return (
@@ -48,7 +48,7 @@ const Detective: NextPage = () => {
         AWS全般(構成図参照)
       </PWorks>
     </LayoutWorks>
-  )
-}
+  );
+};
 
-export default Detective
+export default Detective;

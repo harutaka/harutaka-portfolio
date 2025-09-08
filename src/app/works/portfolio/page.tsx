@@ -1,9 +1,9 @@
-import type { NextPage } from "next"
-import Image from "next/image"
-import H3Works from "@/components/works/H3Works"
-import LayoutWorks from "@/components/works/LayoutWorks"
-import PWorks from "@/components/works/PWorks"
-import overviewImg from "@/../public/img/works/portfolio_overview.jpg"
+import type { NextPage } from "next";
+import Image from "next/image";
+import overviewImg from "@/../public/img/works/portfolio_overview.jpg";
+import H3Works from "@/components/works/H3Works";
+import LayoutWorks from "@/components/works/LayoutWorks";
+import PWorks from "@/components/works/PWorks";
 
 const Portfolio: NextPage = () => {
   return (
@@ -29,7 +29,7 @@ const Portfolio: NextPage = () => {
       <H3Works>使用した技術</H3Works>
       <PWorks>Next.js | Tailwind CSS | daisyUI | TypeScript | biome</PWorks>
     </LayoutWorks>
-  )
-}
+  );
+};
 
-export default Portfolio
+export default Portfolio;

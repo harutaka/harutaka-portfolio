@@ -1,11 +1,11 @@
-import { ReactNode } from "react"
+import type { ReactNode } from "react";
 
 type PWorksProps = {
-  children: ReactNode
-}
+  children: ReactNode;
+};
 
 const PWorks = ({ children }: PWorksProps) => {
-  return <p className="mb-8">{children}</p>
-}
+  return <p className="mb-8">{children}</p>;
+};
 
-export default PWorks
+export default PWorks;

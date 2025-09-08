@@ -1,12 +1,12 @@
-import "./globals.css"
-import type { Metadata } from "next"
-import { Montserrat } from "next/font/google"
+import "./globals.css";
+import type { Metadata } from "next";
+import { Montserrat } from "next/font/google";
 
 const montSerrat = Montserrat({
   weight: ["400", "700"],
   subsets: ["latin"],
   display: "swap",
-})
+});
 
 export const metadata: Metadata = {
   title: "harutaka portfolio",
@@ -19,12 +19,12 @@ export const metadata: Metadata = {
     description: "はるたかのポートフォリオサイトです。Node.js系のWebアプリ制作はお任せください。",
     images: [{ url: "https://harutaka-portfolio.vercel.app/img/works/portfolio_overview.jpg" }],
   },
-}
+};
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="ja" data-theme="light" className={`${montSerrat.className}`}>
       <body id="top">{children}</body>
     </html>
-  )
+  );
 }

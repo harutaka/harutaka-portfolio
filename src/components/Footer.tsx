@@ -1,5 +1,5 @@
-import Link from "next/link"
-import { ChevronUpIcon } from "@heroicons/react/24/solid"
+import { ChevronUpIcon } from "@heroicons/react/24/solid";
+import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -15,13 +15,13 @@ const Footer = () => {
         </aside>
 
         <Link href="#top">
-          <button className="py-2 px-2 bg-neutral-content rounded text-neutral">
+          <button type="button" className="py-2 px-2 bg-neutral-content rounded text-neutral">
             <ChevronUpIcon className="w-5 h-5" />
           </button>
         </Link>
       </div>
     </footer>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;

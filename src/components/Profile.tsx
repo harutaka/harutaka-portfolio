@@ -1,7 +1,7 @@
-import Image from "next/image"
-import Experience from "./Experience"
-import Section from "./Section"
-import harutakaAvatar from "@/../public/img/harutaka_icon_360.png"
+import Image from "next/image";
+import harutakaAvatar from "@/../public/img/harutaka_icon_360.png";
+import Experience from "./Experience";
+import Section from "./Section";
 
 const Profile = () => {
   return (
@@ -13,8 +13,7 @@ const Profile = () => {
             <h3 className="text-2xl font-bold">はるたか</h3>
             <p className="py-6">
               大阪在住のソフト系エンジニアです。 技術分野は主にWeb、IoT、サーバーです。
-              現職では主にテックリードをしています。
-              Webアプリ制作及び、クラウド側のバックエンド構築はお任せください。
+              現職では主にテックリードをしています。 Webアプリ制作及び、クラウド側のバックエンド構築はお任せください。
             </p>
           </div>
         </div>
@@ -22,7 +21,7 @@ const Profile = () => {
 
       <Experience />
     </Section>
-  )
-}
+  );
+};
 
-export default Profile
+export default Profile;
