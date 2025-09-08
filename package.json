@@ -3,7 +3,7 @@
   "version": "0.2.2",
   "scripts": {
     "dev": "next dev --turbopack",
-    "build": "next build",
+    "build": "next build --turbopack",
     "start": "next start",
     "lint": "biome lint --write src/",
     "check": "biome check --write src/",
