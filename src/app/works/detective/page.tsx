@@ -13,8 +13,8 @@ const Detective: NextPage = () => {
 
       <H3Works>URL</H3Works>
       <PWorks>
-        <Link href="https://fumiduki-detective.deno.dev" className="underline">
-          https://fumiduki-detective.deno.dev
+        <Link href="https://harutaka-portfolio.vercel.app" className="underline">
+          https://harutaka-portfolio.vercel.app
         </Link>
       </PWorks>
 
