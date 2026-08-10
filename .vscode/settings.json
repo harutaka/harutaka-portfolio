@@ -2,9 +2,5 @@
   "editor.tabSize": 2,
   "editor.quickSuggestions": {
     "strings": true
-  },
-  "editor.defaultFormatter": "biomejs.biome",
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": "explicit"
   }
 }

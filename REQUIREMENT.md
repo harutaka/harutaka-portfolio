@@ -237,4 +237,4 @@ github: {
 - サイドバー設定: 完了
 - GitHub Pages用GitHub Actions: 完了
 - GitHub Pagesベースパス対応: 完了
-- Next.js関連コードの整理・削除: 保留（移行元参照として`src/`とNext.js設定を保持）
+- Next.js関連コードの整理・削除: 完了
