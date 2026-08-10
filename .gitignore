@@ -35,3 +35,6 @@ yarn-error.log*
 
 # test
 sample*
+node_modules/
+.blume/
+dist/
