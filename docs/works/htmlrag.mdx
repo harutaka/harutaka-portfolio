@@ -1,0 +1,34 @@
+---
+title: npmパッケージ作成
+description: RAG検索効率化のためのHTML最適化ツールです。
+sidebar:
+  icon: package
+  order: 2
+---
+
+<img
+  src={`${import.meta.env.BASE_URL.replace(/\/$/, "")}/img/works/html_rag_optimizer.png`}
+  alt="HTML RAG Optimizerの画面"
+  width="1886"
+  height="1030"
+/>
+
+### URL
+
+[@harutakax/html-rag-optimizer](https://www.npmjs.com/package/@harutakax/html-rag-optimizer)
+
+### 説明
+
+npmパッケージを作成しました。Node.jsをインストールすればツールとして使用できます。
+
+社内の情報検索用にRAGシステムを構築した際、HTMLファイルを情報ソースとして置く場面が多くありました。HTMLファイルをRAG用に最適化すると効果が高いのですが、最適化を簡易に実施できる手段に乏しいと思ったので自作しました。
+
+ES ModulesとCommonJSの両方に対応しています。モジュールとしての活用のほか、CLIツールとしても使用できます。
+
+### 使用した技術
+
+<Badge>TypeScript</Badge>
+<Badge>commander</Badge>
+<Badge>Vitest</Badge>
+<Badge>tsdown</Badge>
+<Badge>Biome</Badge>

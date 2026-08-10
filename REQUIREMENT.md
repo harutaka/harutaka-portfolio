@@ -83,7 +83,6 @@ Worksは`docs/works/`に配置する。ディレクトリ名・URLは小文字�
 ```text
 docs/
   works/
-    index.mdx
     detective.mdx
     htmlrag.mdx
     portfolio.mdx
@@ -104,7 +103,7 @@ docs/
 - `grpchealth.mdx`は移行対象に含める
 - frontmatterに`draft: true`を設定する
 - 本番ビルドから除外する
-- 公開Works一覧からはリンクしない
+- サイドバーのWorks配下からはリンクしない
 - 開発環境では内容確認できる状態にする
 
 ### 5.4 Worksページの共通構成
@@ -139,7 +138,7 @@ docs/
 用途に応じて、以下の組み込みコンポーネントを積極的に利用する。
 
 - `Steps`: Profileの経歴
-- `Card`: Skillのカテゴリ、Works一覧、Contactなどの情報ブロック
+- `Card`: Skillのカテゴリ、Contactなどの情報ブロック
 - `Icon`: Skill見出し、サイドバー、リンクの補助アイコン
 - `Badge`: 経験年数や補足情報
 - `Columns`: Skillカードなどのレスポンシブな複数列表示
@@ -150,7 +149,7 @@ docs/
 - ProfileとContactでは`harutaka_icon_360.png`を共用する
 - Worksでは既存の作品画像を共用する
 - 既存画像の内容を変更しない
-- GitHub Pagesのベースパス配下でも画像が正しく読み込めるようにする
+- `import.meta.env.BASE_URL`を考慮し、GitHub Pagesのベースパス配下でも画像が正しく読み込めるようにする
 - 画像の代替テキストを設定する
 
 ## 9. GitHub Pagesデプロイ
@@ -168,11 +167,12 @@ GitHub Pagesのプロジェクトサイトとして、以下を想定する。
 
 ### 9.2 Blume設定
 
-`blume.config.ts`に以下の設定を追加する。
+`deployment.site`にはホストのオリジンを設定し、プロジェクトサイトのパスは`deployment.base`で設定する。
+`blume.config.ts`には以下の設定を追加する。
 
 ```ts
 deployment: {
-  site: "https://harutaka.github.io/harutaka-portfolio",
+  site: "https://harutaka.github.io",
   base: "/harutaka-portfolio",
 },
 github: {
@@ -221,7 +221,7 @@ github: {
 
 ### ビルド・デプロイ
 
-- `npm run build`または同等のBlumeビルドが成功する
+- `bun run build`または同等のBlumeビルドが成功する
 - GitHub Pages上でトップページ、Worksページ、画像が表示される
 - ベースパス付きの内部リンクが正しく動作する
 - sitemap、robots、検索インデックスが本番URLに対応する
@@ -232,8 +232,9 @@ github: {
 - Profile画像サイズ・左寄せ・本文幅調整: 完了
 - SkillカードUIの試作: 完了
 - Profile経歴のSteps化: 完了
-- WorksページのMDX移行: 未実装
-- Contactの正式移行: 未実装
-- サイドバー設定: 未実装
-- GitHub Pages用GitHub Actions: 未実装
-- Next.js関連コードの整理・削除: 未実装
+- WorksページのMDX移行: 完了
+- Contactの正式移行: 完了
+- サイドバー設定: 完了
+- GitHub Pages用GitHub Actions: 完了
+- GitHub Pagesベースパス対応: 完了
+- Next.js関連コードの整理・削除: 保留（移行元参照として`src/`とNext.js設定を保持）

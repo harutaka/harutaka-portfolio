@@ -1,6 +1,8 @@
 ---
 title: Harutaka's portfolio
 description: はるたかのポートフォリオサイトです。Node.js系のWebアプリ制作はお任せください。
+sidebar:
+  label: Top
 ---
 
 ## Profile
@@ -8,13 +10,13 @@ description: はるたかのポートフォリオサイトです。Node.js系の
 <div class="flex w-full flex-col items-center gap-6 sm:flex-row sm:items-start">
   <img
     class="shrink-0"
-    src="/img/harutaka_icon_360.png"
+    src={`${import.meta.env.BASE_URL.replace(/\/$/, "")}/img/harutaka_icon_360.png`}
     alt="はるたかのイメージ画像"
     width="160"
     height="160"
   />
   <div>
-    ### はるたか
+    <strong class="block text-lg font-semibold text-foreground">はるたか</strong>
 
     大阪在住のソフト系エンジニアです。技術分野は主にWeb、IoT、サーバーです。現職では主にテックリードをしています。Webアプリ制作および、クラウド側のバックエンド構築はお任せください。
   </div>
@@ -178,3 +180,27 @@ description: はるたかのポートフォリオサイトです。Node.js系の
     </Card>
   </Column>
 </Columns>
+
+## Contact
+
+お問い合わせはTwitterのDMにてお願いします。
+
+<div class="flex flex-col items-center gap-3">
+  <a
+    class="flex flex-col items-center gap-2 font-semibold text-foreground"
+    href="https://twitter.com/harutaka_ini"
+    target="_blank"
+    rel="noreferrer"
+  >
+    <img
+      src={`${import.meta.env.BASE_URL.replace(/\/$/, "")}/img/harutaka_icon_360.png`}
+      alt="はるたかのイメージ画像"
+      width="160"
+      height="160"
+    />
+    <span class="flex items-center gap-2">
+      <Icon icon="message-circle" size={18} />
+      <span>@harutaka_ini</span>
+    </span>
+  </a>
+</div>
