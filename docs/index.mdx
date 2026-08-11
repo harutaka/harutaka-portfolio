@@ -7,14 +7,8 @@ sidebar:
 
 ## Profile
 
-<div class="flex w-full flex-col items-center gap-6 sm:flex-row sm:items-start">
-  <img
-    class="shrink-0"
-    src={`${import.meta.env.BASE_URL.replace(/\/$/, "")}/img/harutaka_icon_360.png`}
-    alt="はるたかのイメージ画像"
-    width="160"
-    height="160"
-  />
+<div class="flex w-full flex-col items-center gap-6 [&_img]:size-40 [&_p]:m-0 [&_p]:shrink-0 sm:flex-row sm:items-start">
+  ![はるたかのイメージ画像](../public/img/harutaka_icon_360.png)
   <div>
     <strong class="block text-lg font-semibold text-foreground">はるたか</strong>
 
@@ -187,19 +181,13 @@ sidebar:
 
 <div class="flex flex-col items-center gap-3">
   <a
-    class="flex flex-col items-center gap-2 font-semibold text-foreground"
+    class="flex flex-col items-center gap-1 font-semibold text-foreground [&_img]:m-0! [&_img]:size-40 [&_p]:m-0!"
     href="https://twitter.com/harutaka_ini"
     target="_blank"
     rel="noreferrer"
   >
-    <img
-      src={`${import.meta.env.BASE_URL.replace(/\/$/, "")}/img/harutaka_icon_360.png`}
-      alt="はるたかのイメージ画像"
-      width="160"
-      height="160"
-    />
+    ![はるたかのイメージ画像](../public/img/harutaka_icon_360.png)
     <span class="flex items-center gap-2">
-      <Icon icon="message-circle" size={18} />
       <span>@harutaka_ini</span>
     </span>
   </a>
