@@ -39,3 +39,4 @@ sample*
 # blume
 .blume/
 dist/
+.blume-verify/
