@@ -10,6 +10,10 @@ export default defineConfig({
     base: "/harutaka-portfolio",
   },
 
+  ai: {
+    openInChat: false,
+  },
+
   i18n: {
     defaultLocale: "ja",
     locales: [{ code: "ja", label: "日本語" }],
