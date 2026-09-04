@@ -1,6 +1,6 @@
 # Portfolio Site Guidance
 
-Blume 1.4.2で構築した静的ポートフォリオサイトです。パッケージ管理とスクリプト実行にはBun 1.3.14を使用します。
+Blume 1.6.0で構築した静的ポートフォリオサイトです。パッケージ管理とスクリプト実行にはBun 1.4.0を使用します。
 
 ## Source of Truth
 
@@ -34,7 +34,7 @@ bun run build
 bun run preview
 ```
 
-BlumeがNode.js 22.12以上を要求するため、CIではNode.js 22.12とBun 1.3.14をセットアップします。
+CIではBun 1.4.0をセットアップします。
 
 ## Deployment
 
